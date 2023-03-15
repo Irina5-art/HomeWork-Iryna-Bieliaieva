@@ -1,0 +1,15 @@
+sub {
+    color: brown
+}
+body {
+    background-color: rgb(80, 255, 153);            
+}
+li {
+    color: rgb(14, 6, 122);
+}
+.nom {
+    font-size: larger;
+}
+input[type="email"] {
+    font-size: 28px;
+}
