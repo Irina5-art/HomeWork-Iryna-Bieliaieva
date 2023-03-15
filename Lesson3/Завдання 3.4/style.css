@@ -1,0 +1,61 @@
+li {
+    list-style-type: square;
+    line-height: 50px;
+}
+.menu-bar ul {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: -160px;
+    transition: 0.5s;
+    padding: 30px;
+    width: 150px;
+    height: 500px;
+    text-decoration: none;
+    font-size: 20px;
+    color: orange;
+    border-radius: 0 5px 5px 0;
+}
+.menu-bar ul:hover,
+.name {
+    left: 0;
+}
+.menu {
+    top: 5px;
+    background-color: gray;
+    padding: 20px;
+}
+a[href] {
+    color: white;
+}
+.name {
+    writing-mode: vertical-rl;
+    color: white;
+    height: 500px;
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-right: 0;  
+}
+.menu-bar div:hover {
+    opacity: 0;
+}
+.home:hover {
+    color: black;
+}  
+.contact:hover {
+    color: black;
+}                      
+.our-team:hover {
+    color: black;
+}              
+.faq:hover {
+    color: black;
+}                
+.about:hover {
+    color: black;
+}                
+.news:hover {
+    color: black;
+}

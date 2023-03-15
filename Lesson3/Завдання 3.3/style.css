@@ -1,0 +1,16 @@
+.left {
+    float: left;
+    width: 200px;
+    margin: 0 20px 15px 0;    
+}
+.right {
+    float: right;
+    width: 150px;   
+    margin: 10px 0 10px 15px;
+    display: block;;
+}   
+.hero {
+    width: 700px;
+    height: 300px;
+    text-align: justify;
+}

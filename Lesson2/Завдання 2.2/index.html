@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Вихідний код</title>
+        <meta charset="UTF-8">
+        <style>
+             [href^="http"] {
+                color: #ff8d00;
+            }
+            [href^="https"] {
+                color: #f00;
+            }
+            ul+p{
+                font-size: 26px;
+            }
+            a[title] {
+                border:1px solid #067b09;
+            }           
+        </style> 
+    </head>
+    <body>
+        <div class="holder">
+            <h1>Title</h1>
+            <ul class="list">
+                <li><a href="#">link1</a>
+                    <ul>     
+                     <li><a title="yotube" href="http://www.youtube.com/">link2</a></li>
+                     <li><a href="#">link3</a></li>
+                    </ul>
+                </li>
+                <li><a title="yotube" href="https://www.youtube.com/">link4</a></li>
+                <li><a href="https://validator.w3.org/" title="link">link5</a></li>
+                <li><a href="#">link6</a></li>
+            </ul>
+            <p>Lorem ispum, dolor sit amet consectetur adipisicing elit. Dolore, accusamus.</p>
+            <h2>Title</h2>
+            <p>Lorem ispum, dolor sit amet</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    background-color: #0d5825;
+}
+.quotation {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.quotation q {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.quotation p {
+    font-style: italic;
+}
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 10s linear 0s;
+}
+img {
+    width: 150px;
+    position: absolute;
+}
+.card-1 {
+    z-index: 3;
+    -webkit-transform: rotate(5deg) translate(10px,15px);
+    -ms-transform: rotate(5deg) translate(10px,15px);
+    transform: rotate(5deg) translate(10px,15px);
+    transition: transform 0.3s linear 0s;
+}
+.card-2 {
+    z-index: 2;
+    -webkit-transform: rotate(-15deg) translate(-40px,-15px);
+    -ms-transform: rotate(-15deg) translate(-40px,-15px);
+    transform: rotate(-15deg) translate(-40px,-15px);  
+    transition: transform 0.3s linear 0s;
+}
+.card-3 { 
+    z-index: 1;
+    -webkit-transform: rotate(-40deg) translate(-75px,-65px);
+    -ms-transform: rotate(-40deg) translate(-75px,-65px);
+    transform: rotate(-40deg) translate(-75px,-65px);  
+    transition: transform 0.3s linear 0s;
+}
+.card-1:hover {
+    -webkit-transform: rotate(5deg) translate(10px,-20px);
+    -ms-transform: rotate(5deg) translate(10px,-20px);
+    transform: rotate(5deg) translate(10px,-20px);
+}
+.card-2:hover {
+    -webkit-transform: rotate(-15deg) translate(-40px,-50px);
+    -ms-transform: rotate(-15deg) translate(-40px,-50px);
+    transform: rotate(-15deg) translate(-40px,-50px);
+}
+.card-3:hover {
+    -webkit-transform: rotate(-40deg) translate(-75px,-100px);
+    -ms-transform: rotate(-40deg) translate(-75px,-100px);
+    transform: rotate(-40deg) translate(-75px,-100px);
+}

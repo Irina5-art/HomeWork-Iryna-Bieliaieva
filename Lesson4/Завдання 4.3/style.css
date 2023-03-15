@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+.wave {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: color-wave 5s linear 0s infinite normal forwards;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+@keyframes color-wave {
+    0% {background-color: red; left: 10px; top: 0;}
+    25% {background-color: blue; left: 10px; top: 380px}
+    50% {background-color: green; left: 300px; top: 380px}
+    75% {background-color: yellow; left: 300px; top: 0}
+    100% {background-color: red; left: 10px; top: 0;}
+}

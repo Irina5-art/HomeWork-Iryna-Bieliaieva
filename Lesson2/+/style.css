@@ -1,0 +1,7 @@
+body {
+    background-image: url("Будинок.jpg"), url("lamp-png-34914.png"), url("Їжак.jpg"), url("green-png-44873.png"), url("Пончик.jpg");
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat-x, repeat-y;
+    background-position: center 100px, center top, left center, center 600px, right center;
+    background-size: auto auto, 60px 80px, 30px 30px, 300px 300px, 40px 40px;
+    background-color: green;   
+}
